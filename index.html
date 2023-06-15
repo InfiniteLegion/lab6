@@ -4,22 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./Assets/css/style.css">
-    <title>Lab 5</title>
-    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
-    <script>
-        function myMap() {
-            var mapOptions = {
-                center: new google.map.LatLng(49.442056158100144, 32.0613524048985),
-                zoom: 10,
-                mapTypeId: google.map.MapTypeId.HYBRID
-            };
-            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-        }
-        myMap();
-    </script>
+    <title>Lab 6</title>
 </head>
 
 <body>
@@ -92,17 +87,42 @@
                     <div class="elfsight-app-fb3e1f5a-d7d6-43af-85f9-dfab4fd8684b"></div>
                 </div>
             </div>
+
+            <div id="newFont" class="container-fluid">
+                <h2>Контейнер з підключеним шрифтом</h2>
+                <p class="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem beatae doloribus illo! Itaque laudantium iure doloribus sint sapiente delectus quisquam ut consequuntur explicabo libero quasi reiciendis, est veniam aut exercitationem, recusandae minima vel nostrum soluta atque in voluptatem optio dolorum esse! Illum facere reprehenderit debitis culpa rem provident reiciendis iure dolore quam dolorem unde earum ullam assumenda, saepe perspiciatis repellendus praesentium. Blanditiis unde ab quaerat beatae qui ut quam possimus placeat itaque non voluptate aliquid minima harum fugit magnam quae, dolor exercitationem iure hic inventore laboriosam adipisci tempora deleniti. Laboriosam, iure blanditiis, cupiditate, dignissimos quis nam aliquid necessitatibus magnam voluptatum sint libero maxime nemo eveniet officia labore aspernatur natus possimus! Nemo voluptas magni temporibus repudiandae reiciendis? Natus libero nisi officiis tempore animi sit voluptate magni veritatis ad autem ipsum unde, nostrum necessitatibus? Cupiditate velit eius quae magni, dolorem eveniet vero cumque tenetur nesciunt reiciendis, officia numquam dignissimos quidem qui? Tempore rem necessitatibus vero alias facilis ad aliquam obcaecati repellat minus ratione fuga explicabo, corporis fugiat cupiditate quod similique quibusdam cum ducimus id consequatur perspiciatis officia temporibus? Voluptas obcaecati adipisci consequuntur, eaque debitis veritatis accusantium itaque corporis accusamus iure rerum quibusdam voluptate, facere cupiditate? Sit molestias eveniet voluptas fuga? Cupiditate, odit!</p>
+            </div>
         </main>
 
         <footer class="footer text-light bg-dark">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-4 col-sm-12">
                         <p>+38099-123-45-67</p>
                         <p>info@gmail.com</p>
                     </div>
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-4 col-sm-12">
                         <p>&copy; test-page copyright</p>
+                    </div>
+                    <div id="socials" class="col-md-4 col-sm-12">
+                        <div class="d-flex flex-column justify-content-around">
+                            <h4 class="pb-2">Socials</h4>
+                            <div class="pb-3">
+                                <a id="facebookLink" href="https://facebook.com" target="_blank">
+                                    <i id="facebookIcon" class="bi bi-facebook"></i> Facebook
+                                </a>
+                            </div>
+                            <div class="pb-3">
+                                <a id="telegramLink" href="https://web.telegram.org/a/" target="_blank">
+                                    <i id="telegramIcon" class="bi bi-telegram"></i> Telegram
+                                </a>
+                            </div>
+                            <div class="pb-3">
+                                <a id="instagramLink" href="https://instagram.com" target="_blank">
+                                    <i id="instagramIcon" class="bi bi-instagram"></i> Instagram
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

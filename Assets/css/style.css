@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Pacifico-Regular';
+    src: url('./Pacifico-Regular.ttf');
+}
+
 html,
 body {
     height: 100%;
@@ -13,9 +18,42 @@ body {
     flex: 1 1 auto;
 }
 
+#newFont {
+    font-family: 'Pacifico-Regular';
+}
+
 .footer {
     min-height: 50px;
     padding: 10px;
+}
+
+#socials a {
+    text-decoration: none;
+    font-style: normal;
+    cursor: pointer;
+    color: white;
+}
+
+#socials i {
+    color: gray;
+}
+
+#facebookLink:hover {
+    #facebookIcon {
+        color: #3B5998;
+    }
+}
+
+#instagramLink:hover {
+    #instagramIcon {
+        color: #AC68C9;
+    }
+}
+
+#telegramLink:hover {
+    #telegramIcon {
+        color: #34ACE1;
+    }
 }
 
 h2 {
